@@ -17,7 +17,24 @@
     -webkit-clip-path: none;
     clip-path: none;
   }
+  :root {
+    --univ_rad: 8px;
+    --bs: 5px 5px 0px 0px var(--col_1);
+  }
+  .lang{
+    padding: 1em;
+    margin: 1em;
+    border-radius: var(--univ_rad) !important;
+    box-shadow: var(--bs);
+    padding-bottom: 5em !important;
+  }
 
+  .anchor {
+    display:block;
+    padding-top:3em;
+    margin-top:3em;
+  }
+  
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;

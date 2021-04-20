@@ -1,8 +1,10 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Container, Row, Col } from 'react-bootstrap';
+import Tilt from 'react-tilt';
+import { Container, Row, Col, Card} from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
+import SkillImg from '../Image/SkillImg';
 import PortfolioContext from '../../context/context';
 
 const About = () => {
@@ -60,7 +62,8 @@ const About = () => {
                     </a>
                   </span>
                 )}
-              </div>
+
+               </div>
             </Fade>
           </Col>
         </Row>
