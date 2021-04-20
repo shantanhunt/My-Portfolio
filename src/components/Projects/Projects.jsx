@@ -31,23 +31,26 @@ const Projects = () => {
           <Title title="Skills"/>
               <Row>
                 <div className="skill-wrapper__image">
-                <Tilt
-                            options={{
-                              reverse: false,
-                              max: 8,
-                              perspective: 1000,
-                              scale: 1,
-                              speed: 300,
-                              transition: true,
-                              axis: null,
-                              reset: true,
-                              easing: 'cubic-bezier(.03,.98,.52,.99)',
-                            }}
-                            >
-                    <div data-tilt className="thumbnail rounded">
-                      <SkillImg alt={'react-logo'} filename={'react.png'} />
-                    </div>  
-                  </Tilt>
+                  <Tilt
+                              options={{
+                                reverse: false,
+                                max: 8,
+                                perspective: 1000,
+                                scale: 1.2,
+                                speed: 100,
+                                transition: true,
+                                axis: null,
+                                reset: true,
+                                easing: 'cubic-bezier(.03,.98,.52,.99)',
+                              }}
+                              >
+                      <div data-tilt className="thumbnail rounded">
+                        <SkillImg alt={'react-logo'} filename={'react.png'} />
+                      </div>  
+                    </Tilt>
+                    <div className="skill-wrapper-title">
+                      <h1>ReactJS</h1>
+                    </div>
                 </div>
               </Row>
 
