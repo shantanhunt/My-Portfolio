@@ -13,7 +13,7 @@ const SkillImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fluid(maxWidth: 1366) {
+                fluid(maxWidth: 500) {
                   ...GatsbyImageSharpFluid
                 }
               }

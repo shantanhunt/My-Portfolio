@@ -32,7 +32,7 @@ const Projects = () => {
           <Title title="Skills"/>
               <Row>
                 <Col sm={4}>
-                  <CallSkill filename="cpp_icon.png" skillname="CPP"/>
+                  <CallSkill filename="cpp-2.png" skillname="CPP"/>
                 </Col>
                 <Col sm={4}>
                   <CallSkill filename="sol.png" skillname="Solidity"/>
@@ -68,7 +68,7 @@ const Projects = () => {
                   <CallSkill filename="aws-5.png" skillname="AWS"/>
                 </Col>
                 <Col sm={4}>
-                  <CallSkill filename="nodejs-2.png" skillname="NodeJS"/>
+                  <CallSkill filename="nodejs-5.png" skillname="NodeJS"/>
                 </Col>
                 <Col sm={4}>
                   <CallSkill filename="unity.png" skillname="Unity"/>
@@ -94,19 +94,22 @@ const Projects = () => {
                         <div>
                           <p>
                             {info ||
-                              'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                              'Info'}
                           </p>
                           <p className="mb-4">{info2 || ''}</p>
                         </div>
-                        <a
+                        { url? (
+                          <a
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn cta-btn--hero"
-                          href={url || '#!'}
-                        >
-                          See Live
-                        </a>
-
+                          href={url}
+                          >
+                            See Live
+                          </a>) 
+                        : null 
+                        }
+                        
                         {repo && (
                           <a
                             target="_blank"
@@ -160,6 +163,7 @@ const Projects = () => {
               );
             })}
         </div>
+        
       </Container>
     </section>
   );
