@@ -6,6 +6,7 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 import SkillImg from '../Image/SkillImg';
+import CallSkill from '../Projects/CallSkill';
 
 
 const Projects = () => {
@@ -30,28 +31,15 @@ const Projects = () => {
         <div className="skill-wrapper">
           <Title title="Skills"/>
               <Row>
-                <div className="skill-wrapper__image">
-                  <Tilt
-                              options={{
-                                reverse: false,
-                                max: 8,
-                                perspective: 1000,
-                                scale: 1.2,
-                                speed: 100,
-                                transition: true,
-                                axis: null,
-                                reset: true,
-                                easing: 'cubic-bezier(.03,.98,.52,.99)',
-                              }}
-                              >
-                      <div data-tilt className="thumbnail rounded">
-                        <SkillImg alt={'react-logo'} filename={'react.png'} />
-                      </div>  
-                    </Tilt>
-                    <div className="skill-wrapper-title">
-                      <h1>ReactJS</h1>
-                    </div>
-                </div>
+                <Col md={4} sm={6}>
+                  <CallSkill filename="react.png" skillname="ReactJS"/>
+                </Col>
+                <Col md={4} sm={6}>
+                  <CallSkill filename="react.png" skillname="ReactJS"/>
+                </Col>
+                <Col md={4} sm={6}>
+                  <CallSkill filename="react.png" skillname="ReactJS"/>
+                </Col>
               </Row>
 
             <Title title="Projects" />
