@@ -31,14 +31,47 @@ const Projects = () => {
         <div className="skill-wrapper">
           <Title title="Skills"/>
               <Row>
-                <Col md={4} sm={6}>
-                  <CallSkill filename="react.png" skillname="ReactJS"/>
+                <Col sm={4}>
+                  <CallSkill filename="cpp_icon.png" skillname="CPP"/>
                 </Col>
-                <Col md={4} sm={6}>
-                  <CallSkill filename="react.png" skillname="ReactJS"/>
+                <Col sm={4}>
+                  <CallSkill filename="sol.png" skillname="Solidity"/>
                 </Col>
-                <Col md={4} sm={6}>
-                  <CallSkill filename="react.png" skillname="ReactJS"/>
+                <Col sm={4}>
+                  <CallSkill filename="js_icon.png" skillname="JavaScript"/>
+                </Col>
+              </Row>
+              <Row>
+                <Col sm={4}>
+                  <CallSkill filename="py.png" skillname="Python"/>
+                </Col>
+                <Col sm={4}>
+                  <CallSkill filename="react.png" skillname="React"/>
+                </Col>
+                <Col sm={4}>
+                  <CallSkill filename="git.png" skillname="Git"/>
+                </Col>
+              </Row>
+              <Row>
+                <Col sm={4}>
+                  <CallSkill filename="truffle.png" skillname="Truffle"/>
+                </Col>
+                <Col sm={4}>
+                  <CallSkill filename="chainlink.png" skillname="Chainlink"/>
+                </Col>
+                <Col sm={4}>
+                  <CallSkill filename="sawtooth.png" skillname="Hyperledger Sawtooth"/>
+                </Col>
+              </Row>
+              <Row>
+                <Col sm={4}>
+                  <CallSkill filename="aws-5.png" skillname="AWS"/>
+                </Col>
+                <Col sm={4}>
+                  <CallSkill filename="nodejs-2.png" skillname="NodeJS"/>
+                </Col>
+                <Col sm={4}>
+                  <CallSkill filename="unity.png" skillname="Unity"/>
                 </Col>
               </Row>
 
