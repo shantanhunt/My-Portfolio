@@ -41,14 +41,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am a Passionate Blockchain developer and have been working on Ethereum and Hyperledger blockchain. I had been the Project Head at IEEE Student Branch VIT Pune. '
+                  }
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am Runner-Up at Chainlink Hackathon 2021 and Winner of IEEE HAC & SIGHT Funding for Covid19'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'I am also the winner of Best Student Volunteer Award from IEEE Pune Section'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
