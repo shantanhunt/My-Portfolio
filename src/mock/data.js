@@ -46,9 +46,9 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'treasure-game.png',
+    img: 'dtc.PNG',
     title: 'Dapp-Token ICO',
-    info: 'The Dapp-Token is an ERC-20 token and its ICO aims to raise 12.5 Million in ETH. This happens via a Minted, Capped, Finalizable, Timed and Whitlisted Crowdsale.',
+    info: 'The DTC or Dapp-Token is an ERC-20 token. Its ICO aims to raise 12.5 Million in ETH. This happens via a Minted, Capped, Finalizable, Timed and Whitlisted Crowdsale.',
     info2: 'Built using the latest Openzeppelin 2.5 version for Crowdsale and Chainlink Price feed.',
     repo: 'https://github.com/shantanhunt/DappToken-ICO', // if no repo, the button will not show up
   },
