@@ -47,6 +47,14 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'treasure-game.png',
+    title: 'Dapp-Token ICO',
+    info: 'The Dapp-Token is an ERC-20 token and its ICO aims to raise 12.5 Million in ETH. This happens via a Minted, Capped, Finalizable, Timed and Whitlisted Crowdsale.',
+    info2: 'Built using the latest Openzeppelin 2.5 version for Crowdsale and Chainlink Price feed.',
+    repo: 'https://github.com/shantanhunt/DappToken-ICO', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'treasure-game.png',
     title: 'Haunted House Game with AI Enemy',
     info: 'This is a hide and seek game built using C# and Unity. The player needs to find the key to the treasure before the AI enemy catches the player. ',
     info2: 'The Enemy AI uses A* pathfinding Algorithm to find the shortest distance to catch the player.',
@@ -64,11 +72,11 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
