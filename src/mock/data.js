@@ -46,7 +46,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'dtc.PNG',
+    img: 'dtcfinal.PNG',
     title: 'Dapp-Token ICO',
     info: 'The DTC or Dapp-Token is an ERC-20 token. Its ICO aims to raise 12.5 Million in ETH. This happens via a Minted, Capped, Finalizable, Timed and Whitlisted Crowdsale.',
     info2: 'Built using the latest Openzeppelin 2.5 version for Crowdsale and Chainlink Price feed.',
