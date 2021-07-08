@@ -40,7 +40,7 @@ export const projectsData = [
     img: 'chain4india.PNG',
     title: 'Chain4India',
     info: 'This is a Supply Chain Blockchain Project that aims to bring Hospitals, Manufacturers, and Regulatory Authorities on a Single Platform to ensure Trust, Transparency and Traceability of goods and services exchanged between the parties. ',
-    info2: 'Winner of IEEE HAC & SIGHT Funding for Covid19 in 2020 ',
+    info2: 'Winner of IEEE HAC & SIGHT Funding for Covid19 in 2020. It has been deployed using AWS and Docker',
     url: 'http://65.1.255.221:8021',
     repo: '  https://github.com/shantanhunt/Hyperledger-Sawtooth-Supply-Chain-with-Certifying-Client', // if no repo, the button will not show up
   },
