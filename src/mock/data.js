@@ -54,6 +54,14 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'hoverfinal.png',
+    title: 'Customer Data Visualization using Sankey Chart',
+    info: 'Sankey chart allows businesses and marketers to visualize the customer data, their activities and migrations in an effective way. ',
+    info2: 'Here a customer dataset has been Visualization using Python and its data science libraries such as pandas, plotly and matplotlib.',
+    repo: 'https://github.com/shantanhunt/Customer-Data-Visualization-using-Sankey-Chart', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'treasure-game.png',
     title: 'Haunted House Game with AI Enemy',
     info: 'This is a hide and seek game built using C# and Unity. The player needs to find the key to the treasure before the AI enemy catches the player. ',
