@@ -54,7 +54,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'hoverfinal.png',
+    img: 'hover2.png',
     title: 'Customer Data Visualization using Sankey Chart',
     info: 'Sankey chart allows businesses and marketers to visualize the customer data, their activities and migrations in an effective way. ',
     info2: 'Here a customer dataset has been Visualization using Python and its data science libraries such as pandas, plotly and matplotlib.',
