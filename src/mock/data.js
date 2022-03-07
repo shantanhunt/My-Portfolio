@@ -73,8 +73,8 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Thanks for the Visit!',
-  btn: 'E-Mail Me Here',
-  email: 'shantanu.sontakke18@vit.edu',
+  btn: 'Connect with LinkedIn',
+  LinkedIn: 'https://www.linkedin.com/in/shantanu-sontakke-4a1b3117b',
 };
 
 // FOOTER DATA
